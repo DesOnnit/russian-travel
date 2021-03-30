@@ -7,7 +7,7 @@
     <title>Путешествия по России</title>
 </head>
 <body>                
-    <div class="page">
+    <main class="page">
         <header class="header">
             <img class="header__logo" src="./images/header-logo.svg" alt="Карта России">
             <div class="header__lang-links">
@@ -22,19 +22,19 @@
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
         <section class="intro">
-            <h2 class="intro__title">Чего мы там
-                не видели?</h2>
+            <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. 
                 Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана.
                 А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов.
                 Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
                 Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-            <p class="intro__list">Часовых поясов <span class="intro__list_number">11</span> 
-                Объектов природного наследия ЮНЕСКО <span class="intro__list_number">12</span> 
-                Объектов культурного наследия ЮНЕСКО <span class="intro__list_number">16</span> 
-                Природных заповедников <span class="intro__list_number">105</span> 
-                Аэропортов <span class="intro__list_number">241</span> 
-            </p>
+            <ul class="intro__list">
+                <li>Часовых поясов <span class="intro__list_number">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_number">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_number">16</span></li>
+                <li>Природных заповедников <span class="intro__list_number">105</span></li>
+                <li>Аэропортов <span class="intro__list_number">241</span></li>
+            </ul>
         </section>
         <section class="photo-grid">
             <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид из окна">
@@ -52,7 +52,7 @@
         </section>
         <section class="places">
             <div class="place">
-                <h2 class="place__title">Куршская  коса</h2>
+                <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
                     <a class="place__link transition" href="http://park-kosa.ru">park-kosa.ru</a>
@@ -122,11 +122,8 @@
             </div>
         </section>
         <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-            <h1 class="cover__title">До Байкала
-                «на собаках»</h1>
-            <p class="cover__subtitle">По мотивам учебной темы 
-                о Транссибе — путешествие
-                от столицы до Байкала на электричках.</p>
+            <h1 class="cover__title">До Байкала «на собаках»</h1>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
         <footer class="footer">
             <ul class="footer__links">
@@ -138,6 +135,6 @@
             </ul>
             <p class="footer__copyright">&copy; 2021. Вадим</p>
         </footer>
-    </div>
+    </main>
 </body>
 </html>

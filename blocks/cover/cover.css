@@ -5,7 +5,7 @@
     display: block;
     padding: 245px 312px 245px;
     background-image: url(../../images/cover-trains.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     max-width: 1184px;
     box-sizing: border-box;
     z-index: 1;

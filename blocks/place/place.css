@@ -1,5 +1,5 @@
 .place {
-    margin: 0 0 80px; 
+    margin: 0 0 80px;
     display: grid;
     max-width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

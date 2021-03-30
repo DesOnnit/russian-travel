@@ -3,13 +3,13 @@
     max-width: 984px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1270px) {
     .lead {
         max-width: 928px;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1020px) {
     .lead {
         margin: 0;
         max-width: 768px;

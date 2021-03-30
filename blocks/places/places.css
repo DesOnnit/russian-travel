@@ -4,20 +4,20 @@
     max-width: 984px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1270px) {
     .places {
         max-width: 928px;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1020px) {
     .places {
         max-width: 720px;
         padding-top: 88px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 765px) {
     .places {
         max-width: 320px;
         padding-top: 64px;

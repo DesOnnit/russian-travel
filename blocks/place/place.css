@@ -24,7 +24,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media (max-width: 765px) {
     .place {
         row-gap: 32px;
         margin: 0 0 50px;  

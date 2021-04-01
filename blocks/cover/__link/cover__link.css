@@ -2,9 +2,6 @@
     display: grid;
     padding: 245px 312px 245px;
     text-decoration: none;
-    background-image: url(../../../images/cover-trains.jpg);
-    background-size: cover;
-    background-position:center;
 }
 
 @media (max-width: 1024px) {
@@ -13,13 +10,13 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1020px) {
     .cover__link {
         padding: 115px 104px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .cover__link {
         padding: 33px 16px;
     }

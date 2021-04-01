@@ -1,10 +1,6 @@
 .cover {
-    display: grid;
     position: relative;
     margin: 92px auto 0;
-    padding: 245px 312px 245px;
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: cover;
     max-width: 1184px;
     box-sizing: border-box;
     z-index: 1;
@@ -29,7 +25,6 @@
     .cover {
         max-width: 1024px;
         margin: 92px auto 0;
-        padding: 195px 232px;
     }
 }
 
@@ -37,7 +32,6 @@
     .cover {
         max-width: 768px;
         margin: 90px auto 0;
-        padding: 115px 104px;
     }
 }
 
@@ -45,6 +39,5 @@
     .cover {
         max-width: 320px;
         margin: 66px auto 0;
-        padding: 33px 16px;
     }
 }
